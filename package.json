@@ -1,0 +1,30 @@
+{
+  "name": "homebridge-http-outlet",
+  "version": "1.0.0",
+  "description": "Http outlet for Homebridge",
+  "license": "ISC",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Supereg/homebridge-http-outlet.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Supereg/homebridge-http-outlet/issues"
+  },
+  "homepage": "https://github.com/Supereg/homebridge-http-outlet#readme",
+  "engines": {
+    "node": ">=4.3.2",
+    "homebridge": ">=0.4.8"
+  },
+  "dependencies": {
+    "homebridge-http-base": "1.2.11"
+  },
+  "devDependencies": {
+    "hap-nodejs": "^0.4.48"
+  }
+}
