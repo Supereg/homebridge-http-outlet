@@ -306,10 +306,10 @@ HTTP_OUTLET.prototype = {
     },
 
     getOutletInUse: function (callback) {
-        if (!this.outletInUse.shouldQuery()) {
+        if (!this.outletInUseCache.shouldQuery()) {
             const value = this.homebridgeService.getCharacteristic(Characteristic.OutletInUse).value;
             if (this.debug)
-                this.log(`getOutletInUse() returning cached value '${value}'${this.outletInUse.isInfinite()? " (infinite cache)": ""}`);
+                this.log(`getOutletInUse() returning cached value '${value}'${this.outletInUseCache.isInfinite()? " (infinite cache)": ""}`);
 
             callback(null, value);
             return;
