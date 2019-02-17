@@ -65,7 +65,7 @@ function HTTP_OUTLET(log, config) {
         .on("get", this.getPowerState.bind(this))
         .on("set", this.setPowerState.bind(this));
     if (this.outletInUse)
-        this.homebridgeService.addCharacteristic(Characteristic.OutletInUse)
+        this.homebridgeService.getCharacteristic(Characteristic.OutletInUse)
             .on("get", this.getOutletInUse.bind(this));
 
     /** @namespace config.pullInterval */
