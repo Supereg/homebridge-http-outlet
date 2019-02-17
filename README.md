@@ -210,8 +210,8 @@ Below is an example of an mqttObject containing the basic properties for an outl
     },
     {
       "topic": "your/other/topic/here",
-      "characteristic": "Brightens",
-      "messagePattern": "([0-9]{1,3})"
+      "characteristic": "OutletInUse",
+      "messagePattern": "inuse"
     }
   ]
 }
@@ -219,7 +219,7 @@ Below is an example of an mqttObject containing the basic properties for an outl
 
 ### Examples
 
-#### Basic OUTLET with power
+#### Basic outlet with power
 This is a basic outlet configuration supporting the required On and the optional OutletInUse characteristic.  
 Note that every url is simply a string and are only examples. You could also define every url using a [urlObject](#urlobject).
 ````json
