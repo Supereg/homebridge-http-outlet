@@ -1,6 +1,9 @@
 ---
 name: Bug report
 about: Create a report to help us improve
+title: ''
+labels: ''
+assignees: ''
 
 ---
 
@@ -16,9 +19,9 @@ Steps to reproduce the behavior:
 2. ...
 3. ...
 
-**Version** (output of `npm list -g homebridge homebridge-http-switch`)
+**Version** (output of `npm list -g homebridge homebridge-http-outlet`)
  - homebridge: 
- - homebridge-http-switch: 
+ - homebridge-http-outlet: 
 
 **Configuration**
 ```json
