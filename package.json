@@ -1,6 +1,6 @@
 {
   "name": "homebridge-http-outlet",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Http outlet for Homebridge",
   "license": "ISC",
   "keywords": [
